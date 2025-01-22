@@ -32,7 +32,7 @@ const NavbarComponents = () => {
     <div className="p-5 max-w-7xl m-auto py-7 flex items-center justify-between relative z-10">
       <div className="relative z-20">
         <h1 className="text-black-primary font-bold text-2xl md:text-3xl">
-          F<span className="text-orange-primary">.</span>
+          F<span className="text-orange-primary">R</span>W
         </h1>
       </div>
       {openMenu ? (
@@ -68,7 +68,7 @@ const NavbarComponents = () => {
           <a
             href=""
             key={i}
-            className="text-black-primary font-normal text-base relative"
+            className="text-black-primary font-light text-lg relative tracking-wide hover:text-orange-primary duration-500 ease-in-out"
           >
             {item.name}
           </a>
