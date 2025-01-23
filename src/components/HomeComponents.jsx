@@ -25,14 +25,14 @@ const HomeComponents = () => {
         <div className="flex items-center justify-center gap-5 flex-wrap">
           <a
             href=""
-            className="flex text-sm items-center font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4"
+            className="flex text-sm items-center font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4 hover:bg-slate-800 ease-in-out duration-300 hover:gap-6"
           >
             Start Project{" "}
             <LuMoveRight className="mt-1 text-3xl text-orange-primary" />
           </a>
           <a
             href=""
-            className="flex text-sm items-center font-open bg-white h-12 px-9 rounded-3xl text-black-primary border-2 border-slate-900 font-semibold gap-4"
+            className="flex text-sm items-center font-open bg-white h-12 px-9 rounded-3xl text-black-primary border-2 border-slate-900 font-semibold gap-4 ease-in-out duration-300 hover:gap-6"
           >
             Learn More
             <LuMoveRight className="mt-1 text-3xl text-orange-primary" />

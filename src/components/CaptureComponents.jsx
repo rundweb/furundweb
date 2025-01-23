@@ -18,7 +18,7 @@ const CaptureComponents = () => {
             </p>
             <a
               href=""
-              className="flex text-sm items-center justify-center max-w-52 font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4"
+              className="flex text-sm items-center justify-center max-w-52 font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4 hover:bg-slate-800 ease-in-out duration-300 hover:gap-6"
             >
               Learn More{" "}
               <LuMoveRight className="mt-1 text-3xl text-orange-primary" />

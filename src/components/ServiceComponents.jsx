@@ -27,7 +27,7 @@ const ServiceComponents = () => {
     },
   ];
   return (
-    <div className="p-5 py-10 max-w-7xl m-auto lg:py-20">
+    <div className="p-5 pb-10 max-w-7xl m-auto lg:py-20">
       <div className="flex flex-col w-full">
         {service.map((item, i) => (
           <div
@@ -41,7 +41,11 @@ const ServiceComponents = () => {
               <LuMoveRight className="text-white md:text-2xl" />
             </div>
             <div className="absolute right-16 opacity-0 h-full group-hover:opacity-100 z-10">
-              <img src={item.image} alt="" className="w-32 sm:w-48 h-full object-cover" />
+              <img
+                src={item.image}
+                alt=""
+                className="w-32 sm:w-48 h-full object-cover"
+              />
             </div>
           </div>
         ))}

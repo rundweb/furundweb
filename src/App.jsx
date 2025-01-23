@@ -1,4 +1,5 @@
 import CaptureComponents from "./components/CaptureComponents"
+import FooterComponents from "./components/FooterComponents"
 import HomeComponents from "./components/HomeComponents"
 import KeyComponents from "./components/KeyComponents"
 import ListComponents from "./components/ListComponents"
@@ -14,6 +15,7 @@ const App = () => {
       <CaptureComponents/>
       <ServiceComponents/>
       <ListComponents/>
+      <FooterComponents/>
     </div>
   )
 }

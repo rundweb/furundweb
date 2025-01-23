@@ -82,7 +82,7 @@ const NavbarComponents = () => {
       </div>
       <a
         href=""
-        className="bg-slate-900 text-white px-8 h-12 rounded-3xl items-center justify-center text-base font-semibold hidden md:flex"
+        className="bg-slate-900 text-white px-8 h-12 rounded-3xl items-center justify-center text-base font-semibold hidden md:flex hover:bg-slate-800 ease-in-out duration-300"
       >
         Get Started
       </a>

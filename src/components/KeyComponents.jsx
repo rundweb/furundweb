@@ -36,7 +36,7 @@ const KeyComponents = () => {
               <p className="text-gray-500 text-base">Happy customers</p>
             </div>
           </div>
-          <a href="" className="flex text-sm items-center font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4">
+          <a href="" className="flex text-sm items-center font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4 hover:bg-slate-800 ease-in-out duration-300 hover:gap-6">
             About Us <LuMoveRight className="mt-1 text-3xl text-orange-primary"/>
           </a>
         </div>
