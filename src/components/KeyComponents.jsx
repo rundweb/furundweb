@@ -2,8 +2,8 @@ import key1 from "../assets/image/hom-content (1).jpg";
 import { LuMoveRight } from "react-icons/lu";
 const KeyComponents = () => {
   return (
-    <div className="p-5 max-w-7xl m-auto">
-      <div className="py-10 md:py-20 border-y-2 border-gray-primary relative flex items-center justify-between gap-20">
+    <div className="p-5 max-w-7xl m-auto  md:pb-10 ">
+      <div className="py-10 md:py-20 border-y-2 border-gray-100 relative flex items-center justify-between gap-20">
         <div className="hidden md:flex">
           <img src={key1} alt="" className="relative z-20" />
         </div>
@@ -40,7 +40,7 @@ const KeyComponents = () => {
             About Us <LuMoveRight className="mt-1 text-3xl text-orange-primary"/>
           </a>
         </div>
-        <div className="hidden md:flex absolute h-full w-full bg-gray-primary top-0 -right-[25%] z-10"></div>
+        <div className="hidden md:flex absolute h-full w-full bg-gray-100 top-0 -right-[25%] z-10"></div>
       </div>
     </div>
   );

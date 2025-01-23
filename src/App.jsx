@@ -1,3 +1,4 @@
+import CaptureComponents from "./components/CaptureComponents"
 import HomeComponents from "./components/HomeComponents"
 import KeyComponents from "./components/KeyComponents"
 import NavbarComponents from "./components/NavbarComponents"
@@ -8,6 +9,7 @@ const App = () => {
       <NavbarComponents/>
       <HomeComponents/>
       <KeyComponents/>
+      <CaptureComponents/>
     </div>
   )
 }
