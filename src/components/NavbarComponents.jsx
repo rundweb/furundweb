@@ -31,18 +31,18 @@ const NavbarComponents = () => {
     };
   }, []);
   return (
-    <div className="p-5 max-w-7xl m-auto py-7 flex items-center justify-between relative z-10">
-      <div className="relative z-20">
+    <div className="p-5 max-w-7xl m-auto py-7 flex items-center justify-between relative z-50">
+      <div className="relative z-[60]">
         <img src={logo} alt="" className="w-32" />
       </div>
       {openMenu ? (
         <TbMenu
-          className="md:hidden text-3xl text-orange-primary relative z-20"
+          className="md:hidden text-3xl text-orange-primary relative z-[60]"
           onClick={() => setOpenMenu(!openMenu)}
         />
       ) : (
         <MdCloseFullscreen
-          className="md:hidden text-3xl text-orange-primary relative z-20"
+          className="md:hidden text-3xl text-orange-primary relative z-[60]"
           onClick={() => setOpenMenu(!openMenu)}
         />
       )}

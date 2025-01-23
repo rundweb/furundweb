@@ -3,7 +3,6 @@ import home1 from "../assets/image/hom-content (1).jpg";
 import home2 from "../assets/image/hom-content (2).jpg";
 import home3 from "../assets/image/hom-content (3).jpg";
 import { LuMoveRight } from "react-icons/lu";
-import { LiaLongArrowAltDownSolid } from "react-icons/lia";
 
 const HomeComponents = () => {
   const home = [
@@ -55,15 +54,12 @@ const HomeComponents = () => {
             />
           ))}
         </div>
-        <div className="absolute hidden lg:flex bottom-0 right-20 -z-10">
+        <div className="absolute hidden lg:flex bottom-0 right-0 -z-10">
           <img
             src={homepri}
             alt=""
             className="max-w-[410px] w-full relative z-10"
           />
-        </div>
-        <div className="hidden absolute right-0 bottom-0 bg-orange-primary w-12 h-20 lg:flex items-center justify-center rounded-3xl">
-          <LiaLongArrowAltDownSolid className="text-3xl text-white"/>
         </div>
       </div>
     </div>
