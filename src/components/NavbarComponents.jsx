@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { TbMenu } from "react-icons/tb";
 import { MdCloseFullscreen } from "react-icons/md";
+import { FaAngleRight } from "react-icons/fa6";
+import logo from "../assets/image/logo.svg";
 const NavbarComponents = () => {
   const menu = [
     {
@@ -31,9 +33,7 @@ const NavbarComponents = () => {
   return (
     <div className="p-5 max-w-7xl m-auto py-7 flex items-center justify-between relative z-10">
       <div className="relative z-20">
-        <h1 className="text-black-primary font-bold text-2xl md:text-3xl">
-          F<span className="text-orange-primary">R</span>W
-        </h1>
+        <img src={logo} alt="" className="w-32" />
       </div>
       {openMenu ? (
         <TbMenu
@@ -47,7 +47,7 @@ const NavbarComponents = () => {
         />
       )}
       <div
-        className={`md:hidden fixed min-h-screen top-0 w-full bg-gray-primary flex flex-col items-center justify-center gap-5 ${
+        className={`md:hidden fixed flex flex-col min-h-screen top-0 w-full bg-white p-5 pt-24 gap-6 font-open z-50 ${
           openMenu ? "-right-full" : "right-0"
         } duration-700 ease-in-out`}
       >
@@ -55,25 +55,37 @@ const NavbarComponents = () => {
           <a
             href=""
             key={i}
-            className="text-black-primary font-semibold text-2xl relative"
+            className="text-black-primary font-semibold text-2xl relative flex items-center justify-between"
           >
             {item.name}
-            <span className="absolute w-full h-[3px] bg-orange-primary left-0 -bottom-1 rounded-full"></span>
+            <FaAngleRight className="text-orange-primary" />
           </a>
         ))}
+        <a
+          href=""
+          className="bg-black-primary mt-2 text-white w-full h-12 rounded-lg flex items-center justify-center text-lg font-semibold"
+        >
+          Get Started
+        </a>
       </div>
 
-      <div className="hidden md:flex gap-5">
+      <div className="hidden md:flex gap-5 items-center">
         {menu.map((item, i) => (
           <a
             href=""
             key={i}
-            className="text-black-primary font-light text-lg relative tracking-wide hover:text-orange-primary duration-500 ease-in-out"
+            className="font-open text-black-primary font-normal text-base relative tracking-wide hover:text-orange-primary duration-500 ease-in-out"
           >
             {item.name}
           </a>
         ))}
       </div>
+      <a
+        href=""
+        className="bg-slate-900 text-white px-8 h-12 rounded-3xl items-center justify-center text-base font-semibold hidden md:flex"
+      >
+        Get Started
+      </a>
     </div>
   );
 };

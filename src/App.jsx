@@ -3,7 +3,7 @@ import NavbarComponents from "./components/NavbarComponents"
 
 const App = () => {
   return (
-    <div className="bg-gray-primary">
+    <div className="overflow-hidden">
       <NavbarComponents/>
       <HomeComponents/>
     </div>
