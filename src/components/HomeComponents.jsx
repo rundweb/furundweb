@@ -17,7 +17,7 @@ const HomeComponents = () => {
     },
   ];
   return (
-    <div className="p-5 max-w-7xl m-auto flex flex-col gap-10 relative z-10">
+    <div className="p-5 max-w-7xl m-auto flex flex-col gap-10 relative z-10 md:pb-10">
       <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-8 lg:gap-12">
         <h1 className="font-source text-6xl sm:text-7xl md:text-9xl font-medium text-slate-900 lg:w-3/5">
           Transform your Space
