@@ -41,7 +41,7 @@ const ServiceComponents = () => {
               <LuMoveRight className="text-white md:text-2xl" />
             </div>
             <div className="absolute right-16 opacity-0 h-full group-hover:opacity-100 z-10">
-              <img src={item.image} alt="" className="max-w-48 w-full h-full object-cover" />
+              <img src={item.image} alt="" className="w-32 sm:w-48 h-full object-cover" />
             </div>
           </div>
         ))}
