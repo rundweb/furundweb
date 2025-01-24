@@ -50,7 +50,7 @@ const ListComponents = () => {
           ))}
         </div>
       </div>
-      <div className="absolute w-full h-2/4 bg-gray-100 bottom-0 z-10 left-0 z-0" data-aos="fade-up" data-aos-duration="2000"></div>
+      <div className="absolute w-full h-2/4 bg-gray-100 bottom-0 z-10 left-0" data-aos="fade-up" data-aos-duration="2000"></div>
     </div>
   );
 };
