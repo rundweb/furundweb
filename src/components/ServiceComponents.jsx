@@ -33,6 +33,8 @@ const ServiceComponents = () => {
           <div
             key={i}
             className="flex items-center justify-between border-b-2 border-gray-100 py-5 md:py-10 cursor-pointer hover:bg-slate-950 px-5 group ease-in-out duration-500 relative"
+            data-aos="fade-left"
+            data-aos-duration="1300"
           >
             <p className="font-open font-semibold text-lg text-gray-500 tracking-wide md:text-3xl group-hover:text-orange-primary relative z-20">
               {item.text}

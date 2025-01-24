@@ -19,13 +19,20 @@ const HomeComponents = () => {
   return (
     <div className="p-5 max-w-7xl m-auto flex flex-col gap-10 relative z-10 md:pb-10">
       <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-8 lg:gap-12">
-        <h1 className="font-source text-6xl sm:text-7xl md:text-9xl font-medium text-slate-900 lg:w-3/5">
+        <h1
+          className="font-source text-6xl sm:text-7xl md:text-9xl font-medium text-slate-900 lg:w-3/5"
+          data-aos="fade-left"
+          data-aos-duration="1300"
+        >
           Transform your Space
         </h1>
         <div className="flex items-center justify-center gap-5 flex-wrap">
           <a
             href=""
             className="flex text-sm items-center font-open bg-slate-900 h-12 px-9 rounded-3xl text-white font-semibold gap-4 hover:bg-slate-800 ease-in-out duration-300 hover:gap-6"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+            data-aos-delay="500"
           >
             Start Project{" "}
             <LuMoveRight className="mt-1 text-3xl text-orange-primary" />
@@ -33,6 +40,9 @@ const HomeComponents = () => {
           <a
             href=""
             className="flex text-sm items-center font-open bg-white h-12 px-9 rounded-3xl text-black-primary border-2 border-slate-900 font-semibold gap-4 ease-in-out duration-300 hover:gap-6"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+            data-aos-delay="500"
           >
             Learn More
             <LuMoveRight className="mt-1 text-3xl text-orange-primary" />
@@ -40,7 +50,12 @@ const HomeComponents = () => {
         </div>
       </div>
       <div className="flex flex-col gap-10 relative">
-        <p className="font-open text-slate-800 tracking-wide text-center lg:text-start lg:w-80 relative z-30">
+        <p
+          className="font-open text-slate-800 tracking-wide text-center lg:text-start lg:w-80 relative z-30"
+          data-aos="fade-left"
+          data-aos-duration="1300"
+          data-aos-delay="800"
+        >
           The mind creates the beautiful, the heart creates the home, home sweet
           home
         </p>
@@ -51,6 +66,8 @@ const HomeComponents = () => {
               src={item.image}
               alt=""
               className="max-w-96 md:max-w-52 lg:max-w-36 w-full"
+              data-aos="fade-left"
+              data-aos-duration="1300"
             />
           ))}
         </div>
@@ -59,6 +76,9 @@ const HomeComponents = () => {
             src={homepri}
             alt=""
             className="max-w-[410px] w-full relative z-10"
+            data-aos="zoom-in"
+            data-aos-duration="1300"
+            data-aos-delay="800"
           />
         </div>
       </div>
